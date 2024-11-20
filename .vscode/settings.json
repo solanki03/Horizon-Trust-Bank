@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "d:\\Projects\\Jar file collection\\jcalendar-1.4.jar",
+            "d:\\Projects\\Jar file collection\\mysql-connector-j-8.2.0.jar"
+        ],
+        "exclude": [
+            "lib/jcalendar-1.4.jar",
+            "lib/mysql-connector-j-8.2.0.jar"
+        ]
+    }
+}
