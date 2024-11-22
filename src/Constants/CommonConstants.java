@@ -16,7 +16,7 @@ public class CommonConstants {
     // MySql
     public CommonConstants() {
         try {
-            c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/atmManagementSystem", "root", "PWD#23#octo"); // add your mysql password                                                                                                             
+            c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/atmManagementSystem", "root", "ADD_YOUR_MYSQL_PASSWORD");                                                                                                              
             s = c.createStatement();
         } catch (Exception e) {
             e.printStackTrace();
